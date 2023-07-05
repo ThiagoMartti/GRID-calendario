@@ -26,3 +26,16 @@ ul li{
     font-size: 1.5rem;
     font-weight: bold;
 }
+
+.day,
+.first-day{
+    height: 150px;
+    width: 100%;
+    border: 1px solid;
+    background-color: #f7e7e7;
+    font-size: 2rem;
+}
+
+span{
+    margin: 12px 13px;
+}
