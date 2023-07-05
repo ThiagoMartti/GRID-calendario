@@ -5,9 +5,24 @@ h1{
 ul{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    
+    gap: 5px;    
+}
+
+ul li{
+    list-style: none;
 }
 
 .first-day {
     grid-column-start: 4;
+}
+
+.Day-name{
+    background-color: coral;
+    height: 50px;
+    color: #fafafa;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
